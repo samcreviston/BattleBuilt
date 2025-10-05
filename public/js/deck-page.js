@@ -59,5 +59,5 @@ async function init() {
     }
 }
 document.addEventListener('DOMContentLoaded', init);
-export {};
+document.addEventListener('DOMContentLoaded', init);
 //# sourceMappingURL=deck-page.js.map

@@ -1,15 +1,17 @@
 // DeckService - provides index & deck fetching and basic search/filter utilities
-// runtime validation error for deck JSON
-export class DeckValidationError extends Error {
+// runtime validation error for deck JSON (exposed on window for non-module usage)
+class DeckValidationError extends Error {
     constructor(message) {
         super(message);
         this.name = 'DeckValidationError';
     }
 }
+window.DeckValidationError = DeckValidationError;
 class DeckService {
     constructor() {
-        this.indexUrl = '/data/decks.json';
-        this.deckBase = '/data/decks/';
+    // Use relative paths so the site works when opened locally or served from a subpath
+    this.indexUrl = './data/decks.json';
+    this.deckBase = './data/decks/';
         this.indexCache = null;
         this.deckCache = new Map();
         this.pendingIndex = null;

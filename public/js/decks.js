@@ -1,4 +1,8 @@
 let decksIndex = [];
+function showDecksError(resultsEl, msg) {
+    if (resultsEl)
+        resultsEl.innerHTML = `<p>${msg}</p>`;
+}
 function createCard(deck) {
     const card = document.createElement('article');
     card.className = 'deck-card';
@@ -46,15 +50,23 @@ async function init() {
     if (!resultsEl || !searchEl)
         return;
     try {
-        decksIndex = await deckService.fetchIndex();
+        if (typeof deckService === 'undefined' || !deckService.fetchIndex) {
+            console.warn('deckService not available, falling back to direct fetch for index');
+            const resp = await fetch('./data/decks.json');
+            if (!resp.ok)
+                throw new Error('Failed to fetch index');
+            decksIndex = await resp.json();
+        }
+        else {
+            decksIndex = await deckService.fetchIndex();
+        }
         renderResults(decksIndex, resultsEl);
     }
     catch (err) {
-        resultsEl.innerHTML = '<p>Unable to load decks.</p>';
         console.error(err);
+        showDecksError(resultsEl, 'Unable to load decks. If you opened this file directly, run a static server (e.g. "pnpm run dev" or "npx http-server .").');
     }
     searchEl.addEventListener('input', () => applyFilter(searchEl, resultsEl));
 }
 document.addEventListener('DOMContentLoaded', init);
-export {};
 //# sourceMappingURL=decks.js.map
