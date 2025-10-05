@@ -14,9 +14,7 @@ The app shows off TypeScript through small, focused modules: a DeckService that 
 
 The point of the project is both learning and building: to get stronger with TypeScript and modern tooling while creating something that works, can be deployed statically for now (on GitHub Pages), and can be extended later to pull live card data from the Pokémon TCG API or other sources.
 
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[BattleBuilt Software Demo Video](https://youtu.be/C-aSpKabLyY)
 
 # Development Environment
 
