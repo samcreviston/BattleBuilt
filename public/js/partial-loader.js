@@ -22,8 +22,5 @@ document.addEventListener('DOMContentLoaded', () => {
     const nodes = Array.from(document.querySelectorAll('[data-partial]'));
     nodes.forEach(loadPartial);
 });
-document.addEventListener('DOMContentLoaded', () => {
-    const nodes = Array.from(document.querySelectorAll('[data-partial]'));
-    nodes.forEach(loadPartial);
-});
+export {};
 //# sourceMappingURL=partial-loader.js.map

@@ -1,6 +1,6 @@
 // DeckService - provides index & deck fetching and basic search/filter utilities
 // runtime validation error for deck JSON
-class DeckValidationError extends Error {
+export class DeckValidationError extends Error {
     constructor(message) {
         super(message);
         this.name = 'DeckValidationError';

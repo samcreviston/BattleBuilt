@@ -4,12 +4,6 @@ function createCard(deck) {
     card.className = 'deck-card';
     const title = document.createElement('h3');
     title.textContent = deck.name;
-    if (deck.game) {
-        const gameSpan = document.createElement('span');
-        gameSpan.className = 'deck-game';
-        gameSpan.textContent = ' - ' + deck.game;
-        title.appendChild(gameSpan);
-    }
     card.appendChild(title);
     const desc = document.createElement('p');
     desc.textContent = deck.description;
@@ -62,5 +56,5 @@ async function init() {
     searchEl.addEventListener('input', () => applyFilter(searchEl, resultsEl));
 }
 document.addEventListener('DOMContentLoaded', init);
-document.addEventListener('DOMContentLoaded', init);
+export {};
 //# sourceMappingURL=decks.js.map
