@@ -1,0 +1,14 @@
+{
+  "name": "Eternatus Control",
+  "description": "Dark-type control deck leveraging heavy hitters and disruption to outlast opponents.",
+  "cards": [
+    "Tyranitar",
+    "Hydreigon",
+    "Eternatus",
+    "Dark Patch",
+    "Professor's Research",
+    "Switch"
+  ],
+  "strategyDescription": "Control the board with disruption and powerful finishers. Keep key pieces online and use removal to manage threats."
+  ,"game": "Pokemon"
+}

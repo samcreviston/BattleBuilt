@@ -1,0 +1,14 @@
+{
+  "name": "Azorius Control",
+  "description": "Blue-White control deck that answers threats and wins with card advantage and finishers.",
+  "cards": [
+    "Counterspell",
+    "Sphinx's Revelation",
+    "Supreme Verdict",
+    "Teferi, Hero of Dominaria",
+    "Search for Azcanta",
+    "Detention Sphere"
+  ],
+  "strategyDescription": "Control the game with interaction and card draw, then close with planeswalkers or large finishers once the opponent is stabilized."
+  ,"game": "MTG"
+}

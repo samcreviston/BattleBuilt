@@ -1,0 +1,14 @@
+{
+  "name": "Golgari Midrange",
+  "description": "Black-Green midrange deck focused on value creatures and efficient answers.",
+  "cards": [
+    "Tarmogoyf",
+    "Thoughtseize",
+    "Abrupt Decay",
+    "Scavenging Ooze",
+    "Liliana of the Veil",
+    "Assassin's Trophy"
+  ],
+  "strategyDescription": "Value-oriented play: disrupt opponent's plan, trade efficiently, and win with superior mid-to-late game threats."
+  ,"game": "MTG"
+}

@@ -1,0 +1,9 @@
+[
+  { "index": "123456", "name": "Pikachu Lightning Rush", "description": "Fast-paced Pikachu deck focused on quick sprints and energy acceleration.", "game": "Pokemon" },
+  { "index": "234567", "name": "Charizard Burn", "description": "Aggressive Fire deck that aims to burn through opponents with big attacks.", "game": "Pokemon" },
+  { "index": "345678", "name": "Garchomp Rush", "description": "Fast Dragon deck that evolves quickly and pressures early.", "game": "Pokemon" },
+  { "index": "345679", "name": "Eternatus Control", "description": "Dark control deck using disruption and heavy hitters to outlast opponents.", "game": "Pokemon" },
+  { "index": "456780", "name": "Mono-Red Burn", "description": "Aggressive red strategy focused on direct damage and quick wins.", "game": "MTG" },
+  { "index": "567891", "name": "Azorius Control", "description": "Blue-White control deck that answers threats and wins with card advantage.", "game": "MTG" },
+  { "index": "678902", "name": "Golgari Midrange", "description": "Black-Green midrange deck with efficient answers and value creatures.", "game": "MTG" }
+]

@@ -1,0 +1,14 @@
+{
+  "name": "Garchomp Rush",
+  "description": "A fast Dragon-type attacker that pressures opponents early by evolving quickly and striking hard.",
+  "cards": [
+    "Gible",
+    "Gabite",
+    "Garchomp",
+    "Dragonite",
+    "Quick Ball",
+    "Energy Search"
+  ],
+  "strategyDescription": "Evolve into Garchomp as fast as possible and apply early board pressure. Use draw and search cards to accelerate evolution and maintain momentum."
+  ,"game": "Pokemon"
+}

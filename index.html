@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>BattleBuilt — Home</title>
+		<link rel="stylesheet" href="./public/css/main.css" />
+	</head>
+	<body>
+		<div data-partial="header"></div>
+
+		<main class="container">
+			<h1>Welcome to BattleBuilt</h1>
+			<p>Save and publish card game decks. Start by browsing published decks. Deck Builder feature soon to come.</p>
+
+			<p>
+				<!-- <a class="btn" href="./deckbuilder.html">Open Deck Builder</a>
+				<a class="btn ghost" href="./deck.html">View a Deck (example)</a> -->
+			</p>
+
+			<!-- Published decks search -->
+			<section id="published-decks" style="margin-top:40px;">
+				<h2>Published Decks</h2>
+				<div class="deck-filter">
+					<label for="deck-search">Filter decks</label>
+					<input id="deck-search" type="search" placeholder="Search by name or description" />
+				</div>
+
+				<div id="deck-results" class="deck-list" aria-live="polite">
+					<p>Loading decks…</p>
+				</div>
+			</section>
+		</main>
+
+		<div data-partial="footer"></div>
+
+			<script src="./public/js/partial-loader.js"></script>
+			<script src="./public/js/deck-service.js"></script>
+			<script src="./public/js/decks.js"></script>
+	</body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "name": "Charizard Burn",
+  "description": "Aggressive Fire deck that aims to burn through opponents with big attacks.",
+  "cards": [
+    "Charmander",
+    "Charmeleon",
+    "Charizard",
+    "Welder",
+    "Choice Belt",
+    "Fire Energy"
+  ],
+  "strategyDescription": "Build Charizard quickly and use Welder to attach energies and strike hard. Focus on removing threats early.",
+  "game": "Pokemon"
+}

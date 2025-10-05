@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BattleBuilt — Deck</title>
+    <link rel="stylesheet" href="./public/css/main.css" />
+  </head>
+  <body>
+    <div data-partial="header"></div>
+
+    <main class="container">
+      <h1 id="deck-title">Deck</h1>
+
+      <section id="deck-strategy">
+        <h2>Strategy</h2>
+        <div id="strategy-content"><p>Loading strategy…</p></div>
+      </section>
+
+      <section id="deck-list">
+        <h2>Card List</h2>
+        <div id="cards-list"><p>Loading cards…</p></div>
+      </section>
+    </main>
+
+    <div data-partial="footer"></div>
+    <script src="./public/js/partial-loader.js"></script>
+    <script src="./public/js/deck-service.js"></script>
+    <script src="./public/js/deck-page.js"></script>
+  </body>
+</html>

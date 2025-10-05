@@ -1,0 +1,15 @@
+{
+  "name": "Pikachu Lightning Rush",
+  "description": "Fast-paced Pikachu deck focused on quick sprints and energy acceleration.",
+  "cards": [
+    "Pikachu",
+    "Electrode",
+    "Zeraora",
+    "Thunder Mountain",
+    "Quick Ball",
+    "Energy Retrieval"
+  ],
+  "strategyDescription": "This deck aims to get Pikachu into play quickly and hit repeatedly. Use acceleration and draw engines to keep pressure.",
+  "game": "Pokemon"
+}
+ 

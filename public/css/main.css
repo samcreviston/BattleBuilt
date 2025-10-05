@@ -1,0 +1,98 @@
+/* Basic reset and layout */
+:root{--accent:#2b6cb0;--muted:#666}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: Segoe UI, Roboto, Arial, sans-serif;
+    margin: 0;
+    color: #222;
+    background: #f7f7fb;
+}
+
+.container {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+.site-header {
+    background: #fff;
+    border-bottom: 1px solid #e6e6ee;
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand {
+    font-weight: 700;
+    color: var(--accent);
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.site-header nav a {
+    margin-left: 16px;
+    color: var(--muted);
+    text-decoration: none;
+}
+
+main.container {
+    padding: 48px 24px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 16px;
+    background: var(--accent);
+    color: #fff;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+#deck-search {
+    min-width: 250px;
+}
+
+.btn.ghost {
+    background: #fff;
+    color: var(--accent);
+    border: 1px solid var(--accent);
+}
+
+.site-footer {
+    padding: 18px 0;
+    text-align: center;
+    color: var(--muted);
+    font-size: 0.9rem;
+}
+
+@media (min-width: 700px) {
+    .brand {
+        font-size: 1.4rem;
+    }
+}
+
+.deck-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(220px,1fr));
+    gap:16px;
+    margin-top:16px;
+}
+.deck-card{
+    background:#fff;
+    border:1px solid #e6e6ee;
+    padding:12px;
+    border-radius:8px;
+}
+.deck-card h3{margin:0 0 8px 0;font-size:1.05rem}
+.deck-game{color:var(--accent);font-weight:600;margin-left:6px}

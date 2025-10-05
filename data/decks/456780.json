@@ -1,0 +1,14 @@
+{
+  "name": "Mono-Red Burn",
+  "description": "Aggressive red deck focused on direct damage to the opponent and fast wins.",
+  "cards": [
+    "Lightning Bolt",
+    "Goblin Guide",
+    "Chain Lightning",
+    "Skullcrack",
+    "Rift Bolt",
+    "Eidolon of the Great Revel"
+  ],
+  "strategyDescription": "Deal as much direct damage as possible to the opponent and their creatures. Prioritize efficient burn spells and aggressive creatures."
+  ,"game": "MTG"
+}
