@@ -4,7 +4,7 @@ async function loadPartial(el) {
     const name = el.dataset.partial;
     if (!name)
         return;
-    const url = `/public/partials/${name}.html`;
+    const url = `./public/partials/${name}.html`;
     try {
         const res = await fetch(url);
         if (!res.ok)
@@ -22,5 +22,4 @@ document.addEventListener('DOMContentLoaded', () => {
     const nodes = Array.from(document.querySelectorAll('[data-partial]'));
     nodes.forEach(loadPartial);
 });
-export {};
 //# sourceMappingURL=partial-loader.js.map
